@@ -1,6 +1,7 @@
 body {
     background-color: purple;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
 }
 
 h1 {
@@ -8,6 +9,8 @@ h1 {
     background-color: grey;
     font-size: 50px;
     font-weight: 900;
+    padding: 20px;
+    margin: 20px;
 }
 
 h2 {
@@ -15,6 +18,8 @@ h2 {
     background-color: grey;
     font-size: 25px;
     font-weight: 400;
+    padding: 10px;
+    margin: 20px;
 }
 
 h3 {
@@ -22,21 +27,32 @@ h3 {
     background-color: grey;
     font-size: 20px;
     font-weight: 300;
+    padding: 10px;
+    margin: 20px;
 }
 
 p {
     color: white;
     text-align: justify;
+    padding: 10px;
+    margin: 20px;
 }
 
 li {
     color: white;
-    text-align: left;
-    text-indent: 2%;
+    text-align: justify;
+    padding: 4px;
 }
 
 a {
     color: lightblue;
     font-size: x-large;
     font-weight: 600;
+    padding: 10px;
+    margin: auto;
+}
+
+img {
+    padding: 20px;
+}
 }
